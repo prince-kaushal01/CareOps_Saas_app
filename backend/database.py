@@ -1,5 +1,5 @@
 from supabase import create_client, Client
-from .config import settings
+from config import settings
 from fastapi import Depends
 
 # Initialize Supabase client

@@ -4,9 +4,9 @@ from supabase import Client #type: ignore
 from datetime import datetime
 import uuid
 
-from backend.database import get_supabase
-from backend.auth import require_staff_or_admin
-from backend.schemas import (
+from database import get_supabase
+from  auth import require_staff_or_admin
+from  schemas import (
     ConversationResponse,
     MessageResponse,
     MessageCreate,

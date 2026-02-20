@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from backend.config import settings
-from backend.app.routes import (
+from config import settings
+from app.routes import (
     auth_routes,
     booking_routes,
     contact_routes,

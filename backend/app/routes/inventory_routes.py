@@ -1,8 +1,8 @@
 from fastapi import APIRouter, HTTPException, Depends
 from typing import List
-from backend.schemas import InventoryItemCreate, InventoryItemUpdate, InventoryItemResponse, InventoryStatus
-from backend.database import get_supabase
-from backend.auth import require_staff_or_admin
+from  schemas import InventoryItemCreate, InventoryItemUpdate, InventoryItemResponse, InventoryStatus
+from  database import get_supabase
+from auth import require_staff_or_admin
 from supabase import Client #type: ignore
 import uuid
 from datetime import datetime

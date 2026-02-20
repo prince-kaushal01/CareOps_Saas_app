@@ -1,8 +1,8 @@
 from fastapi import APIRouter, HTTPException, status, Depends, Query
 from typing import List, Optional
-from backend.schemas import ContactCreate, ContactUpdate, ContactResponse, ContactStatus
-from backend.database import get_supabase
-from backend.auth import get_current_user, require_staff_or_admin
+from  schemas import ContactCreate, ContactUpdate, ContactResponse, ContactStatus
+from database import get_supabase
+from  auth import get_current_user, require_staff_or_admin
 from supabase import Client #type: ignore
 import uuid
 from datetime import datetime

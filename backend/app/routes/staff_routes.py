@@ -1,8 +1,8 @@
 from fastapi import APIRouter, HTTPException, Depends
 from typing import List
-from backend.schemas import StaffCreate, StaffUpdate, StaffResponse, UserRole, StaffStatus
-from backend.database import get_supabase_admin
-from backend.auth import require_staff_or_admin, get_password_hash
+from  schemas import StaffCreate, StaffUpdate, StaffResponse, UserRole, StaffStatus
+from  database import get_supabase_admin
+from  auth import require_staff_or_admin, get_password_hash
 from supabase import Client #type: ignore
 import uuid
 

@@ -4,9 +4,9 @@ from jose import JWTError, jwt
 from passlib.context import CryptContext
 from fastapi import Depends, HTTPException, status
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
-from backend.config import settings
-from .database import get_supabase
-from .schemas import TokenData, UserRole
+from  config import settings
+from database import get_supabase
+from schemas import TokenData, UserRole
 from supabase import Client
 
 # Password hashing

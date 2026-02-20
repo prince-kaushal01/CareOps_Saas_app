@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends
-from backend.schemas import DashboardStats, RevenueStats
-from backend.database import get_supabase
-from backend.auth import require_staff_or_admin
+from schemas import DashboardStats, RevenueStats
+from database import get_supabase
+from auth import require_staff_or_admin
 from supabase import Client #type: ignore
 from datetime import datetime, timedelta
 

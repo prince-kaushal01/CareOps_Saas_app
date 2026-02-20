@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException, status, Depends
-from backend.schemas import UserCreate, UserLogin, Token, UserResponse
-from backend.database import get_supabase, get_supabase_admin
-from backend.auth import get_password_hash, verify_password, create_access_token, get_current_user
+from  schemas import UserCreate, UserLogin, Token, UserResponse
+from  database import get_supabase, get_supabase_admin
+from  auth import get_password_hash, verify_password, create_access_token, get_current_user
 from supabase import Client #type: ignore
 import uuid
 

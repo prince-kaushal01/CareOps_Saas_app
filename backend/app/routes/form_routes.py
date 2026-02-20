@@ -1,8 +1,8 @@
 from fastapi import APIRouter, HTTPException, Depends
 from typing import List, Optional
-from backend.schemas import FormCreate, FormUpdate, FormResponse, FormStatus
-from backend.database import get_supabase
-from backend.auth import get_current_user, require_staff_or_admin
+from schemas import FormCreate, FormUpdate, FormResponse, FormStatus
+from database import get_supabase
+from auth import get_current_user, require_staff_or_admin
 from supabase import Client #type: ignore
 import uuid
 from datetime import datetime
