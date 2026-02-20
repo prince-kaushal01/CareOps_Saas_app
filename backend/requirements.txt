@@ -1,0 +1,20 @@
+# CareOps Backend - Python FastAPI + Supabase
+
+## Requirements
+fastapi
+uvicorn[standard]
+supabase
+python-dotenv
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+pydantic
+pydantic-settings
+email-validator
+httpx
+
+## Install
+# pip install -r requirements.txt
+
+## Run
+# uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
