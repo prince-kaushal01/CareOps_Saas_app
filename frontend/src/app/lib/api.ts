@@ -1,7 +1,8 @@
 // src/app/lib/api.ts
 
 // 🔧 CHANGE THIS LINE to match your backend URL
-const API_URL = "http://localhost:8000";
+// const API_URL = "http://localhost:8000";
+const API_URL = "https://careops-saas-app.onrender.com";
 // For production: const API_URL = "https://your-backend-url.com";
 
 // Helper functions
